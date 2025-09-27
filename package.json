@@ -1,0 +1,18 @@
+{
+  "name": "pick-card-game",
+  "version": "1.0.0",
+  "description": "A card picking game with Python backend",
+  "main": "ForumPosts.py",
+  "scripts": {
+    "start": "python3 ForumPosts.py",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "game",
+    "cards",
+    "python",
+    "backend"
+  ],
+  "author": "Jose Santiago Echevarria",
+  "license": "MIT"
+}
