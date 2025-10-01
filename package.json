@@ -2,9 +2,9 @@
   "name": "pick-card-game",
   "version": "1.0.0",
   "description": "A card picking game with Python backend",
-  "main": "ForumPosts.py",
+  "main": "pick_card_game.py",
   "scripts": {
-    "start": "python3 ForumPosts.py",
+    "start": "python3 pick_card_game.py",
     "serve": "python3 -m http.server 8000"
   },
   "keywords": [
