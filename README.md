@@ -17,7 +17,7 @@ This simple console game simulates drawing cards from a standard deck of diamond
 
 ## How to Play
 
-1. Run the game: `python ForumPosts.py`
+1. Run the game: `python pick_card_game.py`
 2. Press Enter to draw a random card
 3. View your current hand and remaining cards
 4. Continue drawing or press 'Q' + Enter to quit
