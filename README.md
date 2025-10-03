@@ -1,7 +1,15 @@
 # PickCardGame
 ### Simple Console Card Drawing Game
 
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+
 A basic Python card game where players draw cards from a deck of diamonds until all cards are drawn or they choose to quit.
+
+## Screenshots
+
+> **Note:** Console output screenshots will be added soon. Run `python pick_card_game.py` to see the game in action.
 
 ## Overview
 
@@ -67,11 +75,69 @@ while diamonds:  # Continue until deck is empty
 - Game automatically ends when deck is empty
 - Player can quit voluntarily at any time
 
-## Requirements
+## Prerequisites
 
-- Python 3.x
-- No external dependencies required
+- **Python**: version 3.6 or higher ([Download](https://www.python.org/downloads/))
+- **No external dependencies required** - uses only Python's built-in `random` module
+
+To check your Python version:
+```bash
+python --version
+# or
+python3 --version
+```
+
+## Troubleshooting
+
+### Common Issues
+
+**Issue:** `python: command not found`
+
+**Solution:** Install Python 3 from [python.org](https://www.python.org/downloads/) or use `python3 pick_card_game.py` instead.
+
+---
+
+**Issue:** Game doesn't recognize 'Q' to quit
+
+**Solution:** Ensure you're pressing 'Q' followed by Enter. The input is case-sensitive (use uppercase Q).
+
+---
+
+**Issue:** Cards appear to repeat
+
+**Solution:** The game removes cards from the deck after drawing. If you see duplicates, please report this as a bug.
+
+---
+
+**Issue:** Script exits with "list index out of range"
+
+**Solution:** This shouldn't happen in normal gameplay. If it does, please report the bug with steps to reproduce.
+
+For additional help, please open an issue in the repository issue tracker.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add YourFeature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+### Enhancement Ideas
+- Add multiple suits (hearts, clubs, spades)
+- Implement card game rules (e.g., poker hands)
+- Add scoring system
+- Create ASCII art for cards
+- Build a GUI version
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact & Support
+
+- **Author**: Jose Santiago Echevarria
+- **Issues**: Please report bugs via the repository issue tracker
+- **Educational Purpose**: This project demonstrates Python lists, loops, random selection, and user input handling
